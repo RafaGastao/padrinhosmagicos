@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #111111;
+}
+header section {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header button {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.botaoVermelho {
+  background-color: #df0712;
+}
+
+.botaoPreto {
+  background-color: #181818;
+  border: solid #fff 1px;
+}
+
+main {
+  background-color: #181818;
+  color: #fff;
+}
+
+.caixaTitulo {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.caixaTitulo h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.caixaTitulo .episodios {
+  font-weight: 700;
+}
+
+.caixaEpisodios {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.caixaEpisodios section {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.caixaEpisodios section img {
+  width: 25vw;
+}
+.caixaEpisodios section p {
+  width: 80%;
+}
+
+footer {
+  background-color: #111111;
+  color: #fff;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+footer li {
+  padding-left: 50px;
+}/*# sourceMappingURL=style.css.map */
